@@ -1,0 +1,3 @@
+SELECT * FROM `bigquery-public-data.world_bank_intl_debt.country_summary` 
+
+where country_code IN ('SAS')
