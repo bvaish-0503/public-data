@@ -1,0 +1,1 @@
+SELECT DISTINCT short_name FROM `bigquery-public-data.world_bank_intl_education.country_summary` 
