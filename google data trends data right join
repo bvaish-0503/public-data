@@ -1,0 +1,3 @@
+SELECT X1.term,X1.score,X2.rank,X2.percent_gain FROM `bigquery-public-data.google_trends.top_rising_terms`AS X1
+RIGHT JOIN `bigquery-public-data.google_trends.top_rising_terms` AS X2
+ON X1.term = X2.term
