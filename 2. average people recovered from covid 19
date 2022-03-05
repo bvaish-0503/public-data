@@ -1,0 +1,1 @@
+SELECT avg(recovered) FROM `bigquery-public-data.covid19_italy.national_trends` LIMIT 1000
