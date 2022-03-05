@@ -1,0 +1,3 @@
+SELECT X1.country_name,X1.year,X2.income_group FROM `bigquery-public-data.world_bank_wdi.indicators_data`AS X1
+LEFT JOIN  `bigquery-public-data.world_bank_wdi.country_summary`AS X2
+ON X1.country_code=X2.country_code
