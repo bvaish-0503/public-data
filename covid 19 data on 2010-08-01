@@ -1,0 +1,5 @@
+SELECT *
+
+ FROM `bigquery-public-data.covid19_geotab_mobility_impact.city_congestion` 
+
+ where date_time between '2010-08-01' AND '2021-08-06'
