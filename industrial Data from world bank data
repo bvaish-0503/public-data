@@ -1,0 +1,1 @@
+SELECT latest_industrial_data, short_name FROM `bigquery-public-data.world_bank_health_population.country_summary` where latest_industrial_data IS NOT null 
