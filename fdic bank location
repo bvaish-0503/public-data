@@ -1,0 +1,12 @@
+--instituion name that are in data
+SELECT institution_name , COUNT(institution_name)  
+
+ as frequency
+
+ FROM `bigquery-public-data.fdic_banks.locations` 
+
+ group by institution_name
+
+ ORDER BY 
+
+ COUNT(institution_name) DESC 
