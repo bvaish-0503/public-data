@@ -1,0 +1,4 @@
+SELECT X1.residential_ratio,X1.business_ratio,X2.county_geoid AS County,X2.total_ratio 
+FROM `bigquery-public-data.hud_zipcode_crosswalk.census_tracts_to_zipcode` AS X1
+RIGHT JOIN `bigquery-public-data.hud_zipcode_crosswalk.zip_to_county`AS X2
+ON X1.zip_code=X2.zip_code
